@@ -31,3 +31,7 @@ people = {
 # Expected output is:
 #   Jenkins
 #   Summers
+
+people.each do |person, info|
+  puts people["#{person}"][:last_name]
+end

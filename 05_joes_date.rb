@@ -31,3 +31,4 @@ people = {
 #
 # Expected output is:
 #   11/4/2014
+puts people["joe"][:correspondence][0][:date]
